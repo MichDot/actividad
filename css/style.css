@@ -1,0 +1,27 @@
+*{ 
+    margin: 1;
+    padding: 1;
+    box-sizing: 1;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    background-color: bisque;
+ }
+
+ header ul li {
+    display: inline-block;
+    margin: 10 px;
+    & a{ 
+        display: block;
+        padding: 10px;
+        background-color: brown;
+        color: black;
+        text-decoration: none;
+        &:hover{ 
+            background-color: black;
+            color: whitesmoke;
+        }
+    } 
+  }
